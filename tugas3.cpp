@@ -9,3 +9,12 @@ void input()
     cout << "Isikan jari jari : ";
     cin >> r;
 }
+float luas(float a) 
+{
+    return phi * a * a;
+}
+
+void output() 
+{
+    cout << "Luasnya adalah : " << luas(r);
+}
