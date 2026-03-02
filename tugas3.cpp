@@ -18,3 +18,8 @@ void output()
 {
     cout << "Luasnya adalah : " << luas(r);
 }
+int main()
+{
+    input();
+    output();
+}
